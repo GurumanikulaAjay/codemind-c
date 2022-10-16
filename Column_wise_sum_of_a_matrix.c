@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 #include<stdio.h>
 int main()
 {
@@ -21,11 +12,12 @@ int main()
         }
     }
     for(i=0;i<n;i++)
-    { v=0;
+    {
+        v=0;
         for(j=0;j<m;j++)
         {
-           v+=a[j][i];
+            v+=a[j][i];
         }
-     printf("%d ",v);   
+        printf("%d ",v);
     }
 }
