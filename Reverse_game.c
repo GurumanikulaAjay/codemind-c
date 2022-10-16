@@ -1,5 +1,13 @@
 
 
+
+
+
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
@@ -28,6 +36,3 @@ int main()
         printf("%d ",b[i]);
     }
 }
-
-
-
