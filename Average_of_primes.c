@@ -1,3 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
@@ -33,13 +55,4 @@ int main()
     res=(sum/d);
     printf("%.2f",res);
 }
-
-
-
-
-
-
-
-
-
 
