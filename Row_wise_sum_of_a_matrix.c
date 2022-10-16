@@ -1,9 +1,3 @@
-
-
-
-
-
-
 #include<stdio.h>
 int main()
 {
@@ -18,13 +12,12 @@ int main()
         }
     }
     for(i=0;i<m;i++)
-    { sum=0;
+    {
+        sum=0;
         for(j=0;j<n;j++)
         {
-           sum+=a[i][j];
+            sum+=a[i][j];
         }
         printf("%d ",sum);
     }
-     
 }
-
