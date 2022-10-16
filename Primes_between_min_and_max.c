@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 #include<stdio.h>
 int prime(int n)
 {
@@ -54,16 +61,3 @@ int main()
     printf("%d",z);
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
