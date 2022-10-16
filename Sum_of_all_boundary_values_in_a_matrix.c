@@ -1,48 +1,28 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 #include<stdio.h>
 int main()
 {
-        int m,n,v=0,i,j,a[10][10];
-        scanf("%d%d",&m,&n);
-        for(i=0;i<m;i++)
+    int a,b,s=0,i,j,arr[10][10];
+    scanf("%d%d",&a,&b);
+    for(i=0;i<a;i++)
+    {
+        for(j=0;j<b;j++)
         {
-            for(j=0;j<n;j++)
+            scanf("%d",&arr[i][j]);
+        }
+    }
+    for(i=0;i<a;i++)
+    {
+        for(j=0;j<b;j++)
+        {
+            if(i==0 ||i==a-1)
             {
-                scanf("%d",&a[i][j]);
+                s+=arr[i][j];
+            }
+            else if((j==0 || j==b-1) || (i==a-1 && j==b-1))
+            {
+                s+=arr[i][j];
             }
         }
-        for(i=0;i<m;i++)
-        {
-            for(j=0;j<n;j++)
-            {
-                if(i==0||i==m-1)
-                {
-                    v+=a[i][j];
-                }
-                else if(i>0&&i!=m-1)
-                {
-                    if(j==0||j==n-1)
-                    {
-                        v+=a[i][j];
-                    }
-                }
-            }
-        }
-        printf("%d",v);
+    }
+    printf("%d",s);
 }
-
-
-
-
