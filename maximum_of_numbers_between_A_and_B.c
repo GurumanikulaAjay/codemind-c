@@ -1,6 +1,16 @@
 
 
 
+
+
+
+
+    
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
@@ -12,22 +22,13 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    scanf("
-%d %d",&x,&b);
+    scanf("%d %d",&x,&b);
     for(i=0;i<n;i++)
     {
-        if(a[i]<=x)
-        {
-            continue;
-        }
-        else if(a[i]>x && a[i]<=b)
+        if(a[i]>=x && a[i]<=b)
         {
             s[j]=a[i];
             j++;
-        }
-        else if (a[i]==x || a[i]==b)
-        {
-            continue;
         }
     }
     if(j==0)
