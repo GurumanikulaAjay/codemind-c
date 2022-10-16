@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 #include<stdio.h>
 int main()
 {
@@ -20,15 +12,16 @@ int main()
         }
     }
     for(i=0;i<m;i++)
-    { v=0;
+    {
+        v=0;
         for(j=0;j<n;j++)
         {
-           v+=a[i][j];
+            v+=a[i][j];
         }
         if(v>diff)
         {
             diff=v;
         }
     }
-       printf("%d",diff);
+    printf("%d",diff);
 }
