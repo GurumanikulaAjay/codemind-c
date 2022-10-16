@@ -1,4 +1,11 @@
 
+
+
+
+
+
+
+
 #include<stdio.h>
 int res(int n)
 {
@@ -26,4 +33,3 @@ int main()
     }
     printf("%d",sum);
 }
-
